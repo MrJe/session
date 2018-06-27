@@ -1,5 +1,9 @@
 # Session - 42 - quick init
 
+## Why me ?!
+One command, and get to work!<br />
+Magic is real.
+
 ## Usage
 
 ```bash
@@ -23,16 +27,16 @@
 | `rmsublivim`  | Uninstall only Sublivim (YEAH)         |
 
 ## Optional
-You can add a `theme_name` to `instal`, `omzsh`, `omzsh_theme` to precise which theme you want to install.
+You can add a `theme_name` to `instal`, `omzsh`, `omzsh_theme` to precise which theme you want to install.<br />
 If no `theme_name` are provided, default theme is set at `jsy`.
 
 ## Why USER and MAIL ?
 Because you're not Marvin, are you?
 
-## Bug
-When install OMZSH with `install` or `omzsh`, you have to `exit` when install is done.
-Otherwise, the theme will not be applied.
+## Bugs (what ?)
+When install OMZSH with `install` or `omzsh`, you have to `exit` when install is done.<br />
+Otherwise, the theme will not be applied. USER and MAIL will not be exported either.
 
 ## Contribution
-Any suggestions, love or bugs reporting ?
+Any suggestions, love or bugs reporting ?<br />
 Contact jmichaud@student.42.fr
