@@ -1,4 +1,4 @@
-# Session - 42 - quick init
+# Session - 42 - omzsh + sublivim
 
 ## Why me ?!
 One command, and get to work!<br />
