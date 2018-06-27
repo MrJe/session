@@ -1,8 +1,10 @@
 #/bin/bash
 
-source ./_omzsh/omzsh.sh
-source ./_reset/reset.sh
-source ./_vim/sublivim.sh
+PATH_SESSION="$(cd "$(dirname "$0")" && pwd -P)"
+
+source ${PATH_SESSION}/_omzsh/omzsh.sh
+source ${PATH_SESSION}/_reset/reset.sh
+source ${PATH_SESSION}/_vim/sublivim.sh
 
 quick_setup() {
 	omzsh ${1}
@@ -18,6 +20,9 @@ then
 elif [ ${1} == "reset" ]
 then
 	reset_session
+elif [ ${1} == "noreset" ]
+then
+	no_reset
 elif [ ${1} == "sublivim" ]
 then
 	sublivim_install

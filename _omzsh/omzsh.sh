@@ -1,7 +1,7 @@
 #/bin/bash
 
-source ./omzsh_theme.sh
-source ./omzsh_mail.sh
+source ${PATH_SESSION}/_omzsh/omzsh_theme.sh
+source ${PATH_SESSION}/_omzsh/omzsh_mail.sh
 
 omzsh() {
 	# Install OMZSH
