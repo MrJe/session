@@ -12,8 +12,8 @@ quick_setup() {
 }
 
 case "${1}" in
-	"")
-		quick_setup
+	"install")
+		quick_setup ${2}
 		;;
 	"omzsh")
 		omzsh ${2}
@@ -24,26 +24,26 @@ case "${1}" in
 	"omzsh_mail")
 		set_usermail
 		;;
-	"noomzsh")
-		omzsh_uninstall
-		;;
 	"reset")
 		reset_session
-		;;
-	"noreset")
-		no_reset
 		;;
 	"sublivim")
 		sublivim_install
 		;;
-	"nosublivim")
-		sublivim_uninstall
-		;;
-	"noall")
+	"uninstall")
 		sublivim_uninstall
 		omzsh_uninstall
 		;;
+	"rmomzsh")
+		omzsh_uninstall
+		;;
+	"rmreset")
+		no_reset
+		;;
+	"rmsublivim")
+		sublivim_uninstall
+		;;
 	*)
-		quick_setup ${1}
+		echo "Error: Unknow argument ${1}. (See README)"
 		;;
 esac
