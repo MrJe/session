@@ -5,7 +5,10 @@ sublivim_install() {
 }
 
 sublivim_uninstall() {
-	cd ~
-	./.Sublivim/uninstall
-	cd -
+	UNINSTALL=~/.Sublivim/uninstall
+	if [ ! -f ${UNINSTALL} ]; then
+		echo "Sublivim is not installed!"
+	else
+		${UNINSTALL}
+	fi
 }

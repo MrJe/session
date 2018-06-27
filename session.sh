@@ -7,28 +7,43 @@ source ${PATH_SESSION}/_reset/reset.sh
 source ${PATH_SESSION}/_vim/sublivim.sh
 
 quick_setup() {
-	omzsh ${1}
 	sublivim_install
+	omzsh ${1}
 }
 
-if [ $# == 0 ]
-then
-	quick_setup
-elif [ ${1} == "omzsh" ]
-then
-	omzsh ${2}
-elif [ ${1} == "reset" ]
-then
-	reset_session
-elif [ ${1} == "noreset" ]
-then
-	no_reset
-elif [ ${1} == "sublivim" ]
-then
-	sublivim_install
-elif [ ${1} == "nosublivim" ]
-then
-	sublivim_uninstall
-else
-	quick_setup ${1}
-fi
+case "${1}" in
+	"")
+		quick_setup
+		;;
+	"omzsh")
+		omzsh ${2}
+		;;
+	"omzsh_theme")
+		set_theme ${2}
+		;;
+	"omzsh_mail")
+		set_usermail
+		;;
+	"noomzsh")
+		omzsh_uninstall
+		;;
+	"reset")
+		reset_session
+		;;
+	"noreset")
+		no_reset
+		;;
+	"sublivim")
+		sublivim_install
+		;;
+	"nosublivim")
+		sublivim_uninstall
+		;;
+	"noall")
+		sublivim_uninstall
+		omzsh_uninstall
+		;;
+	*)
+		quick_setup ${1}
+		;;
+esac

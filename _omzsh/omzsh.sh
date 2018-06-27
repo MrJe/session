@@ -13,3 +13,9 @@ omzsh() {
 	# Set User at LOGIN (whoami) and mail at LOGIN@student.42.fr
 	set_usermail
 }
+
+omzsh_uninstall() {
+	rm -rf ~/.oh-my-zsh 2> /dev/null
+	rm ~/.zshrc*        2> /dev/null
+	rm ~/.zcompdump*    2> /dev/null
+}
