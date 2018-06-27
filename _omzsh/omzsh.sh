@@ -15,7 +15,12 @@ omzsh() {
 }
 
 omzsh_uninstall() {
-	rm -rf ~/.oh-my-zsh 2> /dev/null
-	rm ~/.zshrc*        2> /dev/null
-	rm ~/.zcompdump*    2> /dev/null
+	UNINSTALL=~/.oh-my-zsh
+	if [ ! -d ${UNINSTALL} ]; then
+		echo "OMZSH is not installed!"
+	else
+		rm -rf ${UNINSTALL}
+		rm ~/.zshrc*
+		rm ~/.zcompdump*
+	fi
 }

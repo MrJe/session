@@ -44,6 +44,6 @@ case "${1}" in
 		sublivim_uninstall
 		;;
 	*)
-		echo "Error: Unknow argument ${1}. (See README)"
+		echo "Error: Unknow argument [${1}]. (See README)"
 		;;
 esac

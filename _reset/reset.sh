@@ -6,8 +6,14 @@ reset_session() {
 	echo "You can now log out to RESET the session."
 }
 
+delete_file() {
+	if [ -f ${1} ]; then
+		rm ${1}
+	fi
+}
+
 no_reset() {
-	rm ~/.reset
-	rm ~/.reset_library
+	delete_file ~/.reset
+	delete_file ~/.reset_library
 	echo "Reset cancelled."
 }
