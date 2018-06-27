@@ -26,6 +26,9 @@ then
 elif [ ${1} == "sublivim" ]
 then
 	sublivim_install
+elif [ ${1} == "nosublivim" ]
+then
+	sublivim_uninstall
 else
 	quick_setup ${1}
 fi
