@@ -2,7 +2,7 @@
 
 ## Why me ?!
 One command, and get to work!<br />
-Magic is real.
+Magic is real. True story, it's gonna be legen... wait for it...
 
 ## Usage
 
@@ -31,7 +31,8 @@ You can add a `theme_name` to `instal`, `omzsh`, `omzsh_theme` to precise which 
 If no `theme_name` are provided, default theme is set at `jsy`.
 
 ## Why USER and MAIL ?
-Because you're not Marvin, are you?
+Because you're not Marvin, are you? <br />
+Nice one, Self-five!
 
 ## Bugs (what ?)
 When install OMZSH with `install` or `omzsh`, you have to `exit` when install is done.<br />
@@ -40,3 +41,5 @@ Otherwise, the theme will not be applied. USER and MAIL will not be exported eit
 ## Contribution
 Any suggestions, love or bugs reporting ?<br />
 Contact jmichaud@student.42.fr
+
+... dary !
