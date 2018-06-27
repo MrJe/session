@@ -1,4 +1,0 @@
-USER=jmichaud
-export USER
-MAIL="$USER@student.42.fr"
-export MAIL
