@@ -1,3 +1,5 @@
 #!/bin/bash
 
-curl https://raw.githubusercontent.com/reversTeam/Sublivim/master/installer.sh | sh
+sublivim_install() {
+	curl https://raw.githubusercontent.com/reversTeam/Sublivim/master/installer.sh | sh
+}
