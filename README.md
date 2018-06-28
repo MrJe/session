@@ -1,15 +1,18 @@
 # Session - 42 - omzsh + sublivim
+_Summer is comming_
 
 ## Why me ?!
 One command, and get to work!<br />
 Magic is real. True story, it's gonna be legen... wait for it...
 
+## All I Wanna Do Is `Work Work` And Take Your Money
 ```bash
 cd && https://github.com/MrJe/session.git && ./session/session.sh install
 ```
+_Please read `Bugs` section bellow._
 
 ## Usage
-
+_Maybe one command isn't enough for you._
 ```bash
 ./session.sh [ install | omzsh | omzsh_theme ] ( theme_name )
 ./session.sh [ omzsh_mail | reset | sublivim ]
