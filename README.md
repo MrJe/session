@@ -4,10 +4,14 @@
 One command, and get to work!<br />
 Magic is real. True story, it's gonna be legen... wait for it...
 
+```bash
+cd && https://github.com/MrJe/session.git && ./session/session.sh install
+```
+
 ## Usage
 
 ```bash
-./session.sh [ install | omzsh | omzsh_theme ] `( theme_name )`
+./session.sh [ install | omzsh | omzsh_theme ] ( theme_name )
 ./session.sh [ omzsh_mail | reset | sublivim ]
 ./session.sh [ uninstall | rmomzsh | rmreset | rmsublivim ]
 ```
