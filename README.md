@@ -5,7 +5,7 @@ _Summer is comming_
 One command, and get to work!<br />
 Magic is real. True story, it's gonna be legen... wait for it...
 
-## All I Wanna Do Is `Work Work` And Take Your Money
+### All I Wanna Do Is `Work Work` And Take Your Money
 ```bash
 cd && https://github.com/MrJe/session.git && ./session/session.sh install
 ```
@@ -19,7 +19,7 @@ _Maybe one command isn't enough for you._
 ./session.sh [ uninstall | rmomzsh | rmreset | rmsublivim ]
 ```
 
-## Arguments
+### Arguments
 | Name          | Description                            |
 | ---           | ---                                    |
 | `install`     | Quick install of OMZSH and Sublivim    |
@@ -33,7 +33,7 @@ _Maybe one command isn't enough for you._
 | `rmreset`     | Undo the reset command gnhgnh          |
 | `rmsublivim`  | Uninstall only Sublivim (YEAH)         |
 
-## Optional
+### Optional
 You can add a `theme_name` to `instal`, `omzsh`, `omzsh_theme` to precise which theme you want to install.<br />
 If no `theme_name` are provided, default theme is set at `jsy`.
 
