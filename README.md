@@ -1,5 +1,5 @@
 # Session - 42 - omzsh + sublivim
-_Summer is comming_
+_Summer is coming_
 
 ## Why me ?!
 One command, and get to work!<br />
